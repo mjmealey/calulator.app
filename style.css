@@ -1,0 +1,342 @@
+h1 {
+  color: black;
+  position: absolute;
+  left: 1050px;
+  font-family: 'Merienda One', cursive;
+}
+body{
+  background-color:crimson;
+}
+#container {
+  background-color: black;
+  display: flex;
+  height: 700px;
+  width: 500px;
+  position: absolute;
+  left: 850px;
+  top: 200px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+#containerTwo {
+  background-color: crimson;
+  height: 150px;
+  padding: 0px;
+  width: 523px;
+  font-family: "Merienda One", cursive;
+
+  font-size: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: right;
+  align-items: space-evenly;
+  top: 225px;
+  left: 890px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+#containerThree {
+  background-color: crimson;
+  width: 420px;
+  padding: 55px;
+  height: 450px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  position: absolute;
+  top: 400px;
+  left: 888px;
+}
+
+#displayEl {
+  position: absolute;
+  font-size: 125px;
+  top: 230px;
+  left: 1318px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#errorDisplayEl {
+  font-size: 50px;
+  position: absolute;
+  top: 1px;
+  font-family: "Merienda One", cursive;
+}
+
+#addButton {
+  background-color: indianred;
+  color: orange;
+  font-family: "Merienda One", cursive;
+  border-color: black;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 420px;
+  height: 90px;
+  left: 1311px;
+  padding: 20px;
+  width: 100px;
+  position: absolute;
+}
+
+#subtractButton {
+  background-color: indianred;
+  color: orange;
+  font-family: "Merienda One", cursive;
+  border-color: black;
+  font-size: 35px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 520px;
+  left: 1315px;
+  height: 105px;
+  width: 94px;
+  position: absolute;
+}
+#divideButton {
+  background-color: indianred;
+  color: orange;
+  font-family: "Merienda One", cursive;
+  border-color: black;
+  font-size: 35px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 635px;
+  left: 1315px;
+  padding: 10px;
+  width: 94px;
+  height: 105px;
+  position: absolute;
+}
+
+#decimalButton {
+  background-color: indianred;
+  color: orange;
+  font-family: "Merienda One", cursive;
+  border-color: black;
+  font-size: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 870px;
+  left: 1185px;
+  height: 88px;
+  padding: 5px;
+  width: 120px;
+  height: 83px;
+  position: absolute;
+}
+
+#multiplyButton {
+  background-color: indianred;
+  color: orange;
+  font-family: "Merienda One", cursive;
+  border-color: black;
+  font-size: 35px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 753px;
+  left: 1315px;
+  padding: 24px;
+  width: 94px;
+  position: absolute;
+}
+
+#equalButton {
+  background-color: indianred;
+  font-family: "Merienda One", cursive;
+  color: orange;
+  border-color: black;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 870px;
+  left: 1315px;
+  padding:18px;
+  width: 94px;
+  position: absolute;
+}
+#clearButton {
+  background-color: indianred;
+  color: orange;
+  border-color: black;
+  font-size: 25px;
+  font-family: "Merienda One", cursive;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 420px;
+  left: 910px;
+  padding: 25px;
+  height: 90px;
+  width: 122px;
+  position: absolute;
+}
+
+#backspaceButton {
+  background-color: indianred;
+  color: orange;
+  border-color: black;
+  font-family: 'Merienda One', cursive;
+  font-size: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 420px;
+  left: 1050px;
+  padding: 25px;
+  height: 90px;
+  width: 122px;
+  position: absolute;
+}
+
+#exponentButton {
+  background-color: indianred;
+  color: orange;
+  border-color: black;
+  font-family: 'Merienda One', cursive;
+  font-size: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 420px;
+  left: 1181px;
+  padding: 25px;
+  height: 90px;
+  width: 122px;
+  position: absolute;
+}
+
+#buttonZero {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 915px;
+  top: 870px;
+  padding: 18px;
+  width: 258px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonOne {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 912px;
+  top: 520px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonTwo {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 1052px;
+  top: 520px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonThree {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 1186px;
+  top: 520px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonFour {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 915px;
+  top: 635px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonFive {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 1052px;
+  top: 635px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonSix {
+  background-color: orange;
+  position: absolute;
+  left: 1185px;
+  font-family: 'Merienda One', cursive;
+  top: 635px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonSeven {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 915px;
+  top: 750px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonEight {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 1052px;
+  top: 750px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+
+#buttonNine {
+  background-color: orange;
+  position: absolute;
+  font-family: 'Merienda One', cursive;
+  left: 1185px;
+  top: 750px;
+  padding: 30px;
+  width: 120px;
+  color: darkslateblue;
+  font-size: 30px;
+}
